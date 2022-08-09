@@ -129,9 +129,63 @@
 
 #games {
   background-color: var(--bg-light-grey);
+  padding: 40px 10px 13px;
+}
+
+.game-card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.title-section-game {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--bg-cyan-green);
+  text-align: center;
+}
+
+.game-card-content {
+  width: 100%;
+  width: 300px;
+  margin: 27px 0;
+  border-radius: 8px;
+  background-color: var(--color-white);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .game-card-description img {
   width: 300px;
   height: 169px;
+  border-radius: 8px 8px 0 0;
+}
+
+.game-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-dark-grey);
+  padding-top: 27px;
+  text-align: center;
+}
+
+.game-card-description p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-dark-grey);
+  text-align: center;
+}
+
+.game-card-description span {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--bg-cyan-green);
+}
+
+.game-note {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--bg-cyan-green);
+  text-align: center;
 }

@@ -12,15 +12,19 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: unset;
+  border: unset;
 }
 
 .nav-container {
   background-color: var(--bg-cyan-green);
   height: 90px;
+  width: 100%;
+  position: fixed;
   display: flex;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.75));
 }
@@ -54,4 +58,80 @@
 .profile-image {
   width: 62px;
   padding: 14px 10px;
+}
+
+#news {
+  padding: 130px 0 40px ;
+}
+
+.news-section-title {
+  font-weight: 700;
+  /* font-size: 24px; */
+  font-size: 1.5rem;
+  color: var(--color-dark-grey);
+  text-align: center;
+}
+
+.news-card {
+  background-color: var(--bg-light-grey);
+  margin: 8px 10px 28px;
+  padding: 16px 12px 12px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.news-card-description h2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bg-cyan-green);
+  margin-bottom: 3px;
+}
+
+.news-card-description h3 {
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--color-dark-grey);
+  border-bottom: 1px solid var(--bg-cyan-green);
+  margin-bottom: 3px;
+}
+
+.news-card-description h4 {
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--bg-cyan-green);
+  margin-bottom: 12px;
+}
+
+.news-card-description p {
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--color-dark-grey);
+}
+
+.news-card-description a {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-reddish-rose);
+}
+
+.load-button {
+  text-align: center;
+}
+
+.load-button input {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: var(--color-reddish-rose);
+  color: var(--color-white);
+  border-radius: 8px;
+  padding: 20px 50px;
+}
+
+#games {
+  background-color: var(--bg-light-grey);
+}
+
+.game-card-description img {
+  width: 300px;
+  height: 169px;
 }

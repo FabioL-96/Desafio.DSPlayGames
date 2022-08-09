@@ -35,7 +35,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .container {
@@ -62,7 +61,7 @@
 }
 
 #news {
-  padding: 130px 0 40px ;
+  padding: 130px 0 40px;
 }
 
 .news-section-title {
@@ -126,6 +125,7 @@
   color: var(--color-white);
   border-radius: 8px;
   padding: 20px 50px;
+  cursor: pointer;
 }
 
 #games {
@@ -138,7 +138,6 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .title-section-game {
@@ -207,7 +206,6 @@
   border-radius: 8px;
   padding: 52px 10px 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .name-textBox {
@@ -226,7 +224,7 @@
   font-size: 16px;
 }
 
-.name-textBox ::placeholder{
+.name-textBox ::placeholder {
   font-weight: 400;
   font-size: 16px;
 }
@@ -237,7 +235,7 @@
   border-radius: 4px;
   margin-bottom: 20px;
   border: 1px solid var(--color-dark-grey);
-  background-color: var
+  background-color: var;
 }
 
 #ctrl-email {
@@ -247,16 +245,16 @@
   font-size: 16px;
 }
 
-.email-textBox ::placeholder{
+.email-textBox ::placeholder {
   font-weight: 400;
   font-size: 16px;
 }
 
 .question-title {
-font-weight: 400;
-font-size: 16px;
-color: var(--color-dark-grey);
-text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-dark-grey);
+  text-align: center;
 }
 
 .optionButton {
@@ -279,10 +277,11 @@ text-align: center;
   width: 23px;
   height: 23px;
   margin: 36px 9px;
+  cursor: pointer;
 }
 
 .submit-button {
-text-align: center;
+  text-align: center;
 }
 
 .submit-button input {
@@ -294,6 +293,7 @@ text-align: center;
   height: 67px;
   padding: 20px 90px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .reset-button {
@@ -311,4 +311,35 @@ text-align: center;
   border-radius: 8px;
   padding: 20px 90px;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--bg-dark-grey);
+  height: 302px;
+  padding: 28px 33px 30px 37px;
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-social-network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.trademark {
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.privacy-terms {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }

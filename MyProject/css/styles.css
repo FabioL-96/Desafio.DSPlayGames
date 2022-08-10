@@ -210,6 +210,7 @@
   font-weight: 700;
   /* font-size: 24px; */
   font-size: 1.5rem;
+  margin-bottom: 16px;
   color: var(--color-dark-grey);
   text-align: center;
 }
@@ -413,6 +414,27 @@ footer {
 
   .game-card-description {
     width: 300px;
+  }
+
+  #signUp {
+    padding: 40px 75px 60px;
+  }
+
+  .title-section-signUp {
+    margin-bottom: 40px;
+  }
+
+  .form-card {
+    padding: 52px 75px;
+  }
+
+  .form-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-buttons input {
+    margin: 39px 25px 0;
   }
 
 

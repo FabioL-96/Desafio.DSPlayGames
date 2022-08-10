@@ -222,6 +222,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+form label {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-dark-grey);
+}
+
 .name-textBox {
   display: flex;
   height: 50px;
@@ -356,4 +362,29 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+@media(min-width:510px) {
+  .menu-items ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    visibility: visible;
+  }
+}
+
+@media(min-width: 768px) {
+
+  html {
+    font-size: 24px;
+  }
+
+  .nav-brand {
+    font-size: 24px;
+  }
+
+  .news-card-description h3 {
+    font-size: 16px;
+  }
+
 }

@@ -157,11 +157,10 @@
   font-size: 1.5rem;
   color: var(--bg-cyan-green);
   text-align: center;
+  margin-bottom: 18px;
 }
 
 .game-card-description {  
-  /* width: 300px; 
-  height: 326px;  */
   width: calc(100% - 20px);
   max-width: 420px;
   margin: 10px;
@@ -171,8 +170,6 @@
 }
 
 .game-card-description img {
-  /* width: 300px;
-  height: 169px; */
   width: 100%;
   border-radius: 8px 8px 0 0;
 }
@@ -406,9 +403,18 @@ footer {
     margin-bottom: 16px;
   }
 
+  #games {
+    padding: 36px 0 60px;
+  }
+
+  .title-section-game {
+    margin-bottom: 63px;
+  }
+
   .game-card-description {
     width: 300px;
   }
+
 
 
 

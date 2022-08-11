@@ -337,31 +337,36 @@ form label {
 footer {
   background-color: var(--bg-dark-grey);
   height: 302px;
-  padding: 28px 33px 30px 37px;
+  padding: 28px 35px 30px;
   color: var(--color-white);
   font-weight: 400;
   font-size: 14px;
+}
+
+.footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.footer-content a {
+  padding: 5px;
 }
 
 .links-social-network {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-bottom: 37px;
 }
 
 .trademark {
-  text-align: center;
   margin-bottom: 37px;
 }
 
 .privacy-terms {
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 @media(min-width:510px) {
@@ -437,6 +442,30 @@ footer {
     margin: 39px 25px 0;
   }
 
+  footer {
+    height: 190px;
+    padding: 74px 100px;
+
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  } 
+
+  .footer-content a {
+    padding: 0;
+  }
+
+  .links-social-network {
+    margin: 0;
+  }
+
+  .trademark {
+    margin: 0;
+  }
 
 
 
